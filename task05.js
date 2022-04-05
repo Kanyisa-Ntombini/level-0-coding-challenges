@@ -8,4 +8,7 @@ const areaOfATriangle = (a, b, c) => {
 
   return `The triangle with sides ${a}, ${b} and ${c} has an area of ${area} square units.`;
 }
+
+//Tests
 console.log(areaOfATriangle(3,4,5));
+console.log(areaOfATriangle(9,12,15));

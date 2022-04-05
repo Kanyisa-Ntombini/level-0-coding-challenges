@@ -11,8 +11,17 @@ const printVowels = word => {
     }
   }
 
-  return vowelsInWord.join(',');
+  if (vowelsInWord.length > 0) {
+    return vowelsInWord.join(', ');
+  } else {
+    return 'There are no vowels';
+  }
+  
   //return vowelsInWord;
 }
 
+//Tests
 console.log(printVowels('Umuzi'));
+console.log(printVowels('Autumn'));
+console.log(printVowels('oRanGes'));
+console.log(printVowels('Rythymn'));

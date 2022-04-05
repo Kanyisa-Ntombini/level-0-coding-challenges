@@ -8,5 +8,6 @@ const fahrenheitToCelsius = temperature => {
   return `${temperature} degrees fahrenheit is equal to ${celsiusTemp.toFixed(2)} degrees`;
 }
 
+//Tests
 console.log(celsiusToFahrenheit(17));
 console.log(fahrenheitToCelsius(17));

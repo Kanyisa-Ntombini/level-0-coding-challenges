@@ -9,7 +9,13 @@ const commonCharacters = (word1, word2) => {
     }
   }
 
-  return commonArr.join(', ');
+  if (commonArr.length > 0) {
+    return commonArr.join(', ');
+  } else {
+    return 'There are no common letters or characters';
+  }
 }
 
+//Tests
 console.log(commonCharacters('house', 'computers'))
+console.log(commonCharacters('sheep', 'guitar'))
