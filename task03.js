@@ -1,5 +1,7 @@
-const sayHello = name => `Hello ${name}!`;
+const sayHello = name => {
+  console.log(`Hello ${name}!`);
+};
 
-//tests
-console.log(sayHello('Tshepo'));
-console.log(sayHello('William'));
+//Tests
+//sayHello('Autumn');
+//sayHello('Tshepo');

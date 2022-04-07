@@ -1,5 +1,5 @@
 function maximumNumber () {
-  let max = -1000;
+  let max = Number.NEGATIVE_INFINITY;
 
   for (let property in arguments) {
     if (arguments[property] > max) {
@@ -7,11 +7,11 @@ function maximumNumber () {
     }
   }
 
-  return `${max} is the maximum number`;
+  return max;
 }
 
 //Tests
-console.log(maximumNumber(3, 8, 1, 5));
+/*console.log(maximumNumber(3, 8, 1, 5));
 console.log(maximumNumber(3, 2));
-console.log(maximumNumber(8));
-console.log(maximumNumber(15, 7, 10, 41, 9, 2, 3));
+console.log(maximumNumber(-100003));
+console.log(maximumNumber(15, 7, 10, 41, 9, 2, 3));*/

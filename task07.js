@@ -1,13 +1,13 @@
 const celsiusToFahrenheit = temperature => {
-  let fahrenheitTemp = temperature * (9/5) + 32
-  return `${temperature} degrees celsius is equal to ${fahrenheitTemp.toFixed(2)} fahrenheit`;
+  const fahrenheitTemp = temperature * (9/5) + 32
+  return fahrenheitTemp;
 }
 
 const fahrenheitToCelsius = temperature => {
-  let celsiusTemp = (temperature - 32) * (5/9);
-  return `${temperature} degrees fahrenheit is equal to ${celsiusTemp.toFixed(2)} degrees`;
+  const celsiusTemp = (temperature - 32) * (5/9);
+  return celsiusTemp;
 }
 
 //Tests
-console.log(celsiusToFahrenheit(17));
-console.log(fahrenheitToCelsius(17));
+/*console.log(celsiusToFahrenheit(17));
+console.log(fahrenheitToCelsius(17));*/

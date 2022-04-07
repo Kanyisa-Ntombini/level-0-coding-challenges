@@ -1,5 +1,11 @@
-const evenOrOdd = number => number % 2 == 0 ? 'even' : 'odd';
+const evenOrOdd = number => {
+  if (number % 2 == 0) {
+    console.log('even');
+  } else {
+    console.log('odd');
+  }
+}
 
 //Tests
-console.log(evenOrOdd(5)); //should return odd
-console.log(evenOrOdd(12)); //should return even
+//evenOrOdd(9);
+//evenOrOdd(14);
